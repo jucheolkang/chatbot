@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     SimpleDateFormat type = new SimpleDateFormat(format);
     String tim = type.format(today.getTime());
 
-    private final String BASEURL = "http://35.227.137.255:8080/kypbot/chatbot/";
+    private final String BASEURL = "URL";
     private ApiService jsonPlaceHolderApi;
 private String first = "글로벌 비즈니스학과에서 캡스톤 디자인으로 진행 중인 사업입니다. 많은 관심 부탁드립니다!\n" +
         "소형 폐가전 종류 / 소형 폐가전 처리 장소 / 소형 폐가전 분리배출 시 처리 방법에 관하여 문의해 주세요";
